@@ -12,6 +12,7 @@ public class test1 {
 		Dispatch disp = com.getObject();
 //LONG ReadCard(LONG nPort, LPCTSTR szPhotoPath)
 //		调用无参的方法，并返回一个short值
+		
 		String a1="1001";
 		String a2="F:\\";
 		long  ReadCard = Dispatch.call(disp,"ReadCard").getInt();
